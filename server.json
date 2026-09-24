@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.terravue/terravue",
+  "title": "TerraVue",
+  "description": "Analyze any US home: buy vs rent Monte Carlo, affordability, and ZIP-level appreciation data.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.terravue.app",
+  "icons": [
+    {
+      "src": "https://www.terravue.app/terravue-icon.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.terravue.app/mcp"
+    }
+  ]
+}
