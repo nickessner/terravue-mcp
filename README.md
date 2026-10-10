@@ -215,6 +215,14 @@ use. If a tool returns something that looks wrong, that is worth reporting —
 - Privacy — <https://www.terravue.app/privacy>
 - Terms — <https://www.terravue.app/terms>
 
+## Agent skill
+
+[`SKILL.md`](SKILL.md) is a drop-in usage guide for coding agents — when to reach for
+TerraVue, which of the six tools answers which question (`affordability` and
+`affordable_price` are inverses and get confused most often), and what it deliberately
+refuses to do. Useful with Claude Code, Cursor, Copilot and anything else that loads skill
+files.
+
 ## License
 
 Documentation and manifest in this repository: MIT. The TerraVue service itself is a hosted
